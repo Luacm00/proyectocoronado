@@ -1,5 +1,8 @@
 body {
     background: rgb(173, 207, 252);
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15PX;
 }
 input {
     border: 2px solid rgb(95, 165, 245);
@@ -24,10 +27,43 @@ input {
     font-size: 13px;
     cursor: pointer;
     margin: 1px 1px;
+    
   }
+.back {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
+}
+.back:hover {
+    background-color: rgb(103, 171, 248);
+    color: white;
+}
+.back2 {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
+}
+.back2:hover {
+    background-color: rgb(103, 171, 248);
+    color: white;
+}
+.back3 {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
+}
+.back3:hover {
+    background-color: rgb(103, 171, 248);
+    color: white;
+}
+.back4 {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
+}
+.back4:hover {
+    background-color: rgb(103, 171, 248);
+    color: white;
+}
 .btn1 {
     transition-duration: 0.4s;
-
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
 }
 .btn1:hover {
     background-color: rgb(103, 171, 248);
@@ -35,7 +71,7 @@ input {
 }
 .btn2 {
     transition-duration: 0.4s;
-
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
 }
 .btn2:hover {
     background-color: rgb(103, 171, 248);
@@ -43,7 +79,7 @@ input {
 }
 .btn3 {
     transition-duration: 0.4s;
-
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
 }
 .btn3:hover {
     background-color: rgb(103, 171, 248);
@@ -51,9 +87,13 @@ input {
 }
 .btn4 {
     transition-duration: 0.4s;
-
+    box-shadow: 0 8px 16px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(46,45,45, 0.2);
 }
 .btn4:hover {
     background-color: rgb(103, 171, 248);
     color: white;
+}
+.hinicio, .hpr, .hinfo, .hdoc {
+    background: rgb(103, 171, 248);
+    text-align: center;
 }
